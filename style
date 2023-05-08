@@ -1,0 +1,1952 @@
+@-moz-document domain("rutracker.org") {
+html {
+    background-color: #090b0c !important;
+}
+html {
+    color-scheme: dark !important;
+}
+html,
+body {
+    background-color: #090b0c;
+}
+html,
+body {
+    border-color: #665e51;
+    color: #dddbd8;
+}
+a {
+    color: #2584f5;
+}
+table {
+    border-color: #464d51;
+}
+::placeholder {
+    color: #a69f95;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #323600 !important;
+    color: #dddbd8 !important;
+}
+::-webkit-scrollbar {
+    background-color: #111415;
+    color: #9f988d;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #373c3f;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #495155;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #3a4043;
+}
+::-webkit-scrollbar-corner {
+    background-color: #090b0c;
+}
+* {
+    scrollbar-color: #373c3f #111415;
+}
+::selection {
+    background-color: #003f9e !important;
+    color: #dddbd8 !important;
+}
+::-moz-selection {
+    background-color: #003f9e !important;
+    color: #dddbd8 !important;
+}
+
+/* Invert Style */
+.jfk-bubble.gtx-bubble,
+.captcheck_answer_label > input + img,
+span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"],
+span[data-href^="https://www.hcaptcha.com/"] > #icon,
+#bit-notification-bar-iframe,
+::-webkit-calendar-picker-indicator {
+    filter: invert(100%) hue-rotate(180deg) brightness(91%) !important;
+}
+
+/* Variables Style */
+:root {
+    --darkreader-neutral-background: #040607;
+    --darkreader-neutral-text: #cdc9c4;
+    --darkreader-selection-background: #003f9e;
+    --darkreader-selection-text: #dddbd8;
+}
+
+/* Modified CSS */
+a {
+    background-color: transparent;
+}
+abbr[title] {
+    border-bottom-color: currentcolor;
+    text-decoration-color: currentcolor;
+}
+mark {
+    background-color: rgb(141, 141, 0);
+    color: rgb(221, 219, 216);
+}
+button:focus-visible,
+[type="button"]:focus-visible,
+[type="reset"]:focus-visible,
+[type="submit"]:focus-visible {
+    outline-color: rgb(127, 117, 102);
+}
+fieldset {
+    border-color: rgb(52, 57, 60);
+}
+legend {
+    color: inherit;
+}
+body {
+    background-color: rgb(10, 12, 13);
+    background-image: none;
+    color: rgb(215, 212, 208);
+}
+button {
+    border-color: currentcolor;
+    background-color: transparent;
+    background-image: none;
+}
+[data-whatinput="mouse"] button {
+    outline-color: currentcolor;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: inherit;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+    color: rgb(188, 182, 174);
+}
+a {
+    color: rgb(65, 160, 222);
+    text-decoration-color: currentcolor;
+}
+a:hover,
+a:focus {
+    color: rgb(85, 168, 224);
+}
+a img {
+    border-color: currentcolor;
+}
+hr {
+    border-color: currentcolor currentcolor rgb(52, 58, 61);
+}
+blockquote {
+    border-left-color: rgb(49, 54, 57);
+}
+blockquote,
+blockquote p {
+    color: rgb(146, 138, 124);
+}
+cite {
+    color: rgb(146, 138, 124);
+}
+abbr {
+    border-bottom-color: rgb(124, 114, 99);
+    color: rgb(215, 212, 208);
+}
+code {
+    border-color: rgb(49, 54, 57);
+    background-color: rgb(23, 26, 29);
+    color: rgb(215, 212, 208);
+}
+kbd {
+    background-color: rgb(23, 26, 29);
+    color: rgb(215, 212, 208);
+}
+.subheader {
+    color: rgb(146, 138, 124);
+}
+.no-bullet {
+    list-style-image: none;
+}
+[data-whatinput="mouse"] .menu > li {
+    outline-color: currentcolor;
+}
+.menu .active > a {
+    background-color: rgb(3, 84, 137);
+    background-image: none;
+    color: rgb(220, 218, 215);
+}
+.menu.menu-bordered li {
+    border-color: rgb(41, 46, 48);
+}
+.menu.menu-bordered li:not(:first-child) {
+    border-top-color: currentcolor;
+}
+.menu.menu-hover li:hover {
+    background-color: rgb(23, 26, 29);
+}
+.menu-text {
+    color: inherit;
+}
+.menu-icon::after {
+    background-color: rgb(10, 12, 13);
+    background-image: none;
+    box-shadow: rgb(10, 12, 13) 0px 7px 0px,
+    rgb(10, 12, 13) 0px 14px 0px;
+}
+.menu-icon:hover::after {
+    background-color: rgb(40, 44, 47);
+    background-image: none;
+    box-shadow: rgb(40, 44, 47) 0px 7px 0px,
+    rgb(40, 44, 47) 0px 14px 0px;
+}
+.menu-icon.dark::after {
+    background-color: rgb(0, 0, 0);
+    background-image: none;
+    box-shadow: rgb(0, 0, 0) 0px 7px 0px,
+    rgb(0, 0, 0) 0px 14px 0px;
+}
+.menu-icon.dark:hover::after {
+    background-color: rgb(76, 85, 88);
+    background-image: none;
+    box-shadow: rgb(76, 85, 88) 0px 7px 0px,
+    rgb(76, 85, 88) 0px 14px 0px;
+}
+.dropdown-pane {
+    border-color: rgb(49, 54, 57);
+    background-color: rgb(10, 12, 13);
+}
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-color: rgb(6, 98, 159) transparent transparent;
+}
+[data-whatinput="mouse"] .dropdown.menu a {
+    outline-color: currentcolor;
+}
+.dropdown.menu.vertical > li.opens-left > a::after {
+    border-color: transparent rgb(6, 98, 159) transparent transparent;
+}
+.dropdown.menu.vertical > li.opens-right > a::after {
+    border-color: transparent transparent transparent rgb(6, 98, 159);
+}
+@media print,
+screen and (min-width: 40em) {
+    .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {
+        border-color: rgb(6, 98, 159) transparent transparent;
+    }
+    .dropdown.menu.medium-vertical > li.opens-left > a::after {
+        border-color: transparent rgb(6, 98, 159) transparent transparent;
+    }
+    .dropdown.menu.medium-vertical > li.opens-right > a::after {
+        border-color: transparent transparent transparent rgb(6, 98, 159);
+    }
+}
+@media print,
+screen and (min-width: 64em) {
+    .dropdown.menu.large-horizontal > li.is-dropdown-submenu-parent > a::after {
+        border-color: rgb(6, 98, 159) transparent transparent;
+    }
+    .dropdown.menu.large-vertical > li.opens-left > a::after {
+        border-color: transparent rgb(6, 98, 159) transparent transparent;
+    }
+    .dropdown.menu.large-vertical > li.opens-right > a::after {
+        border-color: transparent transparent transparent rgb(6, 98, 159);
+    }
+}
+.is-dropdown-submenu {
+    border-color: rgb(49, 54, 57);
+    background-color: rgb(10, 12, 13);
+    background-image: none;
+}
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a::after {
+    border-color: transparent rgb(6, 98, 159) transparent transparent;
+}
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
+    border-color: transparent transparent transparent rgb(6, 98, 159);
+}
+th[data-sorter],
+.tablesorter-headerUnSorted {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTgiIGhlaWdodD0iMTIiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyIj48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4yNTQgLTAuNjI1IC0wLjY4NCAwLjAwMCAwLjk5MyAtMC42NTggMC4yOTQgLTAuNjc2IDAuMDAwIDAuOTc5IC0wLjY0OCAtMC42MjEgMC4yNTUgMC4wMDAgMC45NTMgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iMTgiIGhlaWdodD0iMTIiIGZpbHRlcj0idXJsKCNkYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEhOMlp5QjRiV3h1Y3owaWFIUjBjRG92TDNkM2R5NTNNeTV2Y21jdk1qQXdNQzl6ZG1jaUlIZHBaSFJvUFNJeE9DSWdhR1ZwWjJoMFBTSXhNaUlnZG1sbGQwSnZlRDBpTUNBd0lESTBJREUySWo0OGNHRjBhQ0JrUFNKTk1UVWdPQ0F4SURnZ09DQXdlazB4TlNBNUlERWdPU0E0SURFMmVpSWdabWxzYkQwaUl6SXlNaUl2UGp3dmMzWm5QZz09IiAvPjwvc3ZnPg==");
+}
+.tablesorter-headerAsc {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTgiIGhlaWdodD0iMTIiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyIj48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4yNTQgLTAuNjI1IC0wLjY4NCAwLjAwMCAwLjk5MyAtMC42NTggMC4yOTQgLTAuNjc2IDAuMDAwIDAuOTc5IC0wLjY0OCAtMC42MjEgMC4yNTUgMC4wMDAgMC45NTMgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iMTgiIGhlaWdodD0iMTIiIGZpbHRlcj0idXJsKCNkYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEhOMlp5QjRiV3h1Y3owaWFIUjBjRG92TDNkM2R5NTNNeTV2Y21jdk1qQXdNQzl6ZG1jaUlIZHBaSFJvUFNJeE9DSWdhR1ZwWjJoMFBTSXhNaUlnZG1sbGQwSnZlRDBpTUNBd0lESTBJREUySWo0OGNHRjBhQ0JrUFNKTk1UVWdNVEVnTVNBeE1TQTRJRE42SWlCbWFXeHNQU0lqTWpJeUlpOCtQQzl6ZG1jKyIgLz48L3N2Zz4=") !important;
+}
+.tablesorter-headerDesc {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTgiIGhlaWdodD0iMTIiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyIj48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4yNTQgLTAuNjI1IC0wLjY4NCAwLjAwMCAwLjk5MyAtMC42NTggMC4yOTQgLTAuNjc2IDAuMDAwIDAuOTc5IC0wLjY0OCAtMC42MjEgMC4yNTUgMC4wMDAgMC45NTMgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iMTgiIGhlaWdodD0iMTIiIGZpbHRlcj0idXJsKCNkYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEhOMlp5QjRiV3h1Y3owaWFIUjBjRG92TDNkM2R5NTNNeTV2Y21jdk1qQXdNQzl6ZG1jaUlIZHBaSFJvUFNJeE9DSWdhR1ZwWjJoMFBTSXhNaUlnZG1sbGQwSnZlRDBpTUNBd0lESTBJREUySWo0OGNHRjBhQ0JrUFNKTk1UVWdOaUF4SURZZ09DQXhNM29pSUdacGJHdzlJaU15TWpJaUx6NDhMM04yWno0PSIgLz48L3N2Zz4=") !important;
+}
+th[data-sorter="false"],
+.sorter-false {
+    background-image: none !important;
+}
+.tablesorter-headerAsc .tablesorter-header-inner,
+.tablesorter-headerDesc .tablesorter-header-inner {
+    color: rgb(196, 192, 185);
+    border-bottom-color: rgb(136, 38, 38);
+}
+.tablesorter-default .tablesorter-filter-row {
+    background-color: rgb(19, 21, 23);
+}
+.tablesorter-default .tablesorter-filter-row td {
+    background-color: rgb(19, 21, 23);
+    border-bottom-color: rgb(48, 54, 56);
+}
+.tablesorter-default .tablesorter-filter-row.hideme * {
+    border-color: currentcolor;
+}
+.tablesorter-default input.tablesorter-filter,
+.tablesorter-default select.tablesorter-filter {
+    background-color: rgb(9, 11, 12);
+    border-color: rgb(53, 59, 62);
+    color: rgb(189, 183, 176);
+}
+fieldset {
+    border-color: rgb(64, 70, 73);
+}
+body {
+    color: rgb(221, 219, 216);
+    background-color: rgb(25, 29, 31);
+    background-image: none;
+}
+#body_container {
+    background-color: rgb(25, 29, 31);
+    background-image: none;
+}
+#page_container {
+    background-color: rgb(9, 11, 12);
+    background-image: none;
+}
+img {
+    border-color: currentcolor;
+}
+.highlight {
+    color: rgb(245, 11, 11);
+    background-color: rgb(38, 38, 0);
+    background-image: none;
+}
+a:link,
+a:visited {
+    color: rgb(84, 191, 245);
+}
+a:hover,
+a:active,
+a:focus {
+    color: rgb(245, 135, 35) !important;
+    text-decoration-color: currentcolor !important;
+}
+.a-like,
+ul.a-like-items > li {
+    color: rgb(84, 191, 245) !important;
+}
+.a-like:hover,
+ul.a-like-items > li:hover {
+    color: rgb(245, 40, 40) !important;
+}
+.colorAdmin,
+a.colorAdmin,
+a.colorAdmin:visited {
+    color: rgb(245, 136, 37) !important;
+}
+.colorMod,
+a.colorMod,
+a.colorMod:visited {
+    color: rgb(101, 245, 101) !important;
+}
+.colorGroup,
+a.colorGroup,
+a.colorGroup:visited {
+    color: rgb(117, 153, 184) !important;
+}
+.colorCPH,
+a.colorCPH,
+a.colorCPH:visited {
+    color: rgb(37, 152, 245) !important;
+}
+.adm,
+ul.adm-items > li,
+a.adm,
+a.adm:visited {
+    color: rgb(245, 101, 101);
+    text-decoration-color: currentcolor;
+}
+.adm:hover,
+ul.adm-items > li:hover {
+    color: rgb(245, 40, 40) !important;
+    text-decoration-color: currentcolor !important;
+}
+.dlWill {
+    color: rgb(68, 165, 245);
+}
+.dlDown,
+.leech,
+.leechmed,
+.leechsmall {
+    color: rgb(245, 101, 101);
+}
+.dlComplete,
+.seed,
+.seedmed,
+.seedsmall {
+    color: rgb(120, 245, 120);
+}
+.dlCancel {
+    color: rgb(156, 148, 137);
+}
+a.dlWill,
+a.dlWill:visited {
+    color: rgb(68, 165, 245);
+    text-decoration-color: currentcolor;
+}
+a.dlDown,
+a.dlDown:visited {
+    color: rgb(245, 101, 101);
+    text-decoration-color: currentcolor;
+}
+a.dlComplete,
+a.dlComplete:visited {
+    color: rgb(120, 245, 120);
+    text-decoration-color: currentcolor;
+}
+a.dlCancel,
+a.dlCancel:visited {
+    color: rgb(156, 148, 137);
+    text-decoration-color: currentcolor;
+}
+a.leech,
+a.leechmed,
+a.leechsmall,
+a.leech:visited,
+a.leechmed:visited,
+a.leechsmall:visited {
+    color: rgb(245, 101, 101);
+    text-decoration-color: currentcolor;
+}
+a.seed,
+a.seedmed,
+a.seedsmall,
+a.seed:visited,
+a.seedmed:visited,
+a.seedsmall:visited {
+    color: rgb(120, 245, 120);
+    text-decoration-color: currentcolor;
+}
+a.ref-1,
+a.ref-1:visited,
+a.internal-promo-text-link-1,
+a.internal-promo-text-link-1:visited,
+a.internal-promo-text-guest,
+a.internal-promo-text-guest:visited {
+    color: rgb(98, 167, 232) !important;
+    text-decoration-color: currentcolor;
+}
+a.ref-2,
+a.ref-2:visited {
+    color: rgb(81, 159, 226) !important;
+}
+.ref-promocode {
+    color: rgb(112, 180, 245);
+}
+a.ref-topic-guest,
+a.ref-topic-guest:visited {
+    color: rgb(98, 167, 232) !important;
+}
+a.text-promo-tracker,
+a.text-promo-tracker:visited {
+    color: rgb(138, 214, 143) !important;
+}
+.nick,
+.nick a {
+    color: rgb(96, 195, 245) !important;
+    text-decoration-color: currentcolor;
+}
+.nick-author,
+.nick-author a {
+    color: rgb(37, 112, 245) !important;
+}
+.nick-mod,
+.nick-mod a {
+    color: rgb(101, 245, 101) !important;
+}
+.nick-admin,
+.nick-admin a {
+    color: rgb(204, 86, 86) !important;
+}
+.nav a {
+    text-decoration-color: currentcolor;
+}
+.nav em {
+    color: rgb(245, 120, 120);
+}
+.topictitle,
+a.topictitle {
+    text-decoration-color: currentcolor;
+}
+.torTopic,
+a.torTopic {
+    text-decoration-color: currentcolor;
+}
+a.topictitle:visited,
+a.torTopic:visited,
+a.tLink:visited {
+    color: rgb(87, 145, 175);
+}
+.visited-dont-change-color a.topictitle:visited,
+.visited-dont-change-color a.torTopic:visited,
+.visited-dont-change-color a.tLink:visited {
+    color: rgb(84, 191, 245);
+}
+.soc-buttons span {
+    background-image: url("https://static.rutracker.cc/templates/v1/images/soc_sprite.png");
+}
+.row1,
+.row1 td {
+    background-color: rgb(18, 21, 22);
+    background-image: none;
+}
+.row2,
+.row2 td {
+    background-color: rgb(25, 29, 31);
+    background-image: none;
+}
+.row3,
+.row3 td {
+    background-color: rgb(33, 37, 39);
+    background-image: none;
+}
+.row4,
+.row4 td {
+    background-color: rgb(20, 23, 24);
+    background-image: none;
+}
+.row5,
+.row5 td {
+    background-color: rgb(23, 26, 28);
+    background-image: none;
+}
+.row6,
+.row6 td {
+    background-color: rgb(29, 33, 35);
+    background-image: none;
+}
+.row7,
+.row7 td {
+    background-color: rgb(35, 39, 41);
+    background-image: none;
+}
+.prow1 {
+    background-color: rgb(20, 23, 24);
+    background-image: none;
+}
+.prow2 {
+    background-color: rgb(23, 26, 28);
+    background-image: none;
+}
+.prow3 {
+    background-color: rgb(25, 29, 31);
+    background-image: none;
+}
+.p-body tr {
+    background-color: rgb(20, 23, 24);
+    background-image: none;
+}
+.p-body tr:hover {
+    background-color: rgb(25, 29, 31);
+    background-image: none;
+}
+.maintitle,
+.pagetitle {
+    color: rgb(182, 177, 169);
+}
+.maintitle a,
+.pagetitle a {
+    text-decoration-color: currentcolor;
+}
+.gen,
+.med,
+.small,
+.gensmall {
+    color: rgb(221, 219, 216);
+}
+a.gen,
+a.med,
+a.small,
+a.gensmall {
+    color: rgb(84, 191, 245);
+    text-decoration-color: currentcolor;
+}
+.c-head,
+.q-head {
+    color: rgb(177, 171, 163);
+}
+.c-body,
+.q,
+.sp-wrap,
+.sp-head,
+.sp-body {
+    border-color: rgb(49, 54, 57);
+}
+.post-u {
+    text-decoration-color: currentcolor;
+}
+.post-s {
+    text-decoration-color: currentcolor;
+}
+.post-box {
+    border-color: rgb(56, 62, 65);
+}
+.post-ul {
+    list-style-image: none;
+}
+.post-ul .post-ul {
+    list-style-image: none;
+}
+.post-ul .post-ul .post-ul {
+    list-style-image: none;
+}
+.c-body {
+    color: rgb(120, 245, 120);
+    background-color: rgb(12, 14, 15);
+    background-image: none;
+}
+.q {
+    background-color: rgb(12, 14, 15);
+    background-image: none;
+    color: rgb(192, 187, 180);
+}
+.q .q {
+    background-color: rgb(15, 17, 18);
+    background-image: none;
+}
+.q .q .q {
+    background-color: rgb(12, 14, 15);
+    background-image: none;
+}
+.q .q .q .q {
+    background-color: rgb(15, 17, 18);
+    background-image: none;
+}
+.q .q .q .q .q {
+    background-color: rgb(12, 14, 15);
+    background-image: none;
+}
+.q .q .q .q .q .q {
+    background-color: rgb(15, 17, 18);
+    background-image: none;
+}
+.sp-head span,
+.q-head span {
+    text-decoration-color: currentcolor;
+}
+.sp-head span {
+    color: rgb(194, 190, 183);
+}
+.q-head span {
+    color: rgb(177, 171, 163);
+}
+.q-head a:hover span {
+    color: rgb(245, 135, 35);
+}
+.sp-wrap {
+    background-color: rgb(22, 25, 28);
+    background-image: none;
+}
+.sp-body {
+    background-color: rgb(15, 17, 18);
+    background-image: none;
+}
+.sp-fold {
+    color: rgb(177, 171, 163);
+}
+ul.inlined > li + li::before,
+ul.inlined > li + li:hover::before {
+    color: rgb(189, 183, 176);
+}
+img.post-img-broken {
+    border-color: rgb(62, 68, 71);
+}
+img.post-img-broken:hover {
+    border-color: rgb(99, 91, 78);
+}
+.postLink:hover .postImg {
+    outline-color: rgb(0, 82, 151);
+}
+.infobox article {
+    background-color: rgb(9, 11, 12);
+    background-image: none;
+    border-color: rgb(47, 53, 55);
+}
+option {
+    border-bottom-color: rgb(44, 49, 52);
+}
+option:last-child {
+    border-bottom-color: currentcolor;
+}
+option:hover {
+    background-color: rgb(15, 18, 19);
+}
+select.jumper {
+    color: rgb(140, 130, 116);
+}
+select.jumper option:first-child {
+    color: rgb(140, 130, 116);
+}
+select.jumper option {
+    color: rgb(221, 219, 216);
+}
+input.mainoption,
+input.main,
+input.liteoption,
+input.lite {
+    border-color: currentcolor;
+    background-color: rgb(12, 14, 15);
+    background-image: none;
+}
+input.button,
+.buttons input {
+    border-color: currentcolor;
+    background-color: rgb(15, 17, 18);
+    background-image: none;
+}
+input.button,
+.buttons input,
+input.mainoption,
+input.main,
+input.liteoption,
+input.lite {
+    color: rgb(221, 219, 216);
+    border-color: rgb(55, 61, 64) rgb(127, 117, 102) rgb(127, 117, 102) rgb(55, 61, 64);
+}
+input[disabled="disabled"] {
+    color: rgb(140, 130, 116);
+}
+input.error {
+    color: rgb(245, 11, 11);
+}
+.cat input[type="text"] {
+    background-color: rgb(11, 13, 14);
+    background-image: none;
+}
+optgroup {
+    color: rgb(96, 195, 245);
+    background-color: rgb(25, 29, 31);
+    background-image: none;
+}
+optgroup option {
+    color: rgb(221, 219, 216);
+    background-color: rgb(9, 11, 12);
+    background-image: none;
+}
+legend {
+    color: rgb(130, 172, 245);
+}
+legend a {
+    text-decoration-color: currentcolor;
+}
+.has_sf {
+    color: rgb(189, 183, 176);
+    background-color: rgb(15, 17, 18);
+    background-image: none;
+}
+.ped-buttons-row input[type="button"] {
+    color: rgb(221, 219, 216);
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(11, 13, 15) 5%,
+    rgb(23, 26, 29) 100%);
+    border-color: rgba(127, 117, 102, 0.4);
+    text-shadow: rgba(9, 11, 12, 0.7) 0px 1px 0px;
+}
+.ped-buttons-row input[type="button"]:active {
+    color: rgb(245, 94, 94);
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(23, 26, 29) 5%,
+    rgb(11, 13, 15) 100%);
+}
+.ped-editor-buttons option:not(:first-of-type) {
+    background-color: rgb(16, 19, 20);
+    background-image: none;
+}
+.ped-editor-buttons option.em {
+    background-color: rgb(24, 28, 30);
+    background-image: none;
+}
+.p-quick-preview-box {
+    border-color: rgb(58, 64, 67);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
+}
+.mod-buttons select#topictype,
+.mod-buttons select#topiclabel,
+#vf-mod-action-content select#topictype,
+#vf-mod-action-content select#topiclabel {
+    border-color: currentcolor;
+}
+.hl_only_new {
+    color: rgb(245, 138, 84);
+}
+.select-action {
+    background-color: rgb(15, 17, 18);
+    background-image: none;
+}
+.txtb,
+.txtb:link,
+.txtb:visited,
+.txtb:hover {
+    color: rgb(130, 194, 245);
+    text-decoration-color: currentcolor;
+}
+.txtb:hover {
+    color: rgb(245, 135, 35);
+    text-decoration-color: currentcolor;
+}
+s.txtb {
+    color: rgb(155, 147, 136);
+}
+.bodyline {
+    background-color: rgb(9, 11, 12);
+    background-image: none;
+    border-color: rgb(57, 63, 66);
+}
+.bodyline th {
+    background-color: rgb(64, 82, 103);
+    background-image: none;
+    color: rgb(182, 217, 245);
+}
+table.forumline {
+    background-color: rgb(47, 52, 54);
+    background-image: none;
+    border-top-color: rgb(52, 58, 61);
+}
+.forumline th {
+    border-color: rgb(51, 56, 59) rgb(52, 58, 61) rgb(52, 58, 61);
+    color: rgb(221, 219, 216);
+    background-color: rgb(35, 39, 41);
+}
+.forumline td {
+    border-color: rgb(47, 53, 55);
+}
+.thHead {
+    color: rgb(178, 203, 215);
+    background-color: rgb(0, 68, 109);
+    background-image: url("https://static.rutracker.cc/templates/v1/images/cellpic3.gif");
+}
+.forumline th:first-child {
+    border-left-color: rgb(52, 58, 61);
+}
+.forumline th:last-child {
+    border-right-color: rgb(52, 58, 61);
+}
+table.borderless th,
+table.borderless td {
+    border-color: currentcolor;
+}
+table.bordered {
+    border-color: rgb(52, 58, 61);
+}
+.bordered th,
+.bordered td,
+table.borderless .bordered th,
+table.borderless .bordered td {
+    border-color: rgb(52, 58, 61);
+}
+table.message td {
+    background-color: rgb(18, 21, 22);
+    background-image: none;
+}
+.cat,
+td.cat,
+td.catTitle,
+td.catHead,
+td.catBottom {
+    background-color: rgb(25, 29, 31);
+    background-image: none;
+}
+.catTitle {
+    color: rgb(189, 183, 176);
+}
+.catTitle a {
+    text-decoration-color: currentcolor;
+}
+table.info_msg {
+    border-color: rgb(52, 58, 61);
+    background-color: rgb(25, 29, 31);
+    background-image: none;
+}
+table.info_msg .msg {
+    border-color: rgb(52, 58, 61);
+    background-color: rgb(18, 21, 22);
+    background-image: none;
+}
+table.error {
+    border-color: rgb(198, 56, 0);
+    background-color: rgb(68, 0, 0);
+    background-image: none;
+}
+table.error .msg {
+    border-color: rgb(198, 56, 0);
+    background-color: rgb(55, 29, 0);
+    background-image: none;
+    color: rgb(204, 86, 86);
+}
+#traf-stats-tbl {
+    background-color: rgb(12, 15, 16);
+    background-image: none;
+    border-color: rgb(57, 63, 66);
+}
+#traf-stats-tbl td {
+    color: rgb(120, 245, 120);
+}
+#traf-stats-tbl td:first-child {
+    color: rgb(221, 219, 216);
+}
+.topmenu {
+    background-color: rgb(18, 21, 22);
+    background-image: none;
+    border-color: rgb(46, 51, 54);
+}
+.topmenu a:link,
+.topmenu a:visited {
+    text-decoration-color: currentcolor;
+}
+.new-pm {
+    background-color: rgb(84, 35, 0) !important;
+    background-image: none !important;
+    border-color: rgb(137, 60, 0) !important;
+}
+.new-pm-link {
+    color: rgb(245, 44, 44) !important;
+}
+.site-nav {
+    background-color: rgb(35, 39, 41);
+}
+.site-nav a {
+    color: rgb(163, 156, 145);
+    text-decoration-color: currentcolor;
+}
+.site-nav a:hover,
+.site-nav a:active {
+    color: rgb(221, 219, 216) !important;
+    text-decoration-color: currentcolor !important;
+}
+#latest_news h3 {
+    color: rgb(189, 183, 176);
+}
+.news_date {
+    color: rgb(189, 183, 176);
+    background-color: rgb(16, 19, 20);
+    background-image: none;
+    border-color: rgb(55, 61, 64);
+}
+.news_title {
+    background-color: transparent;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjEiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyIj48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4zMzkgLTAuNjgwIC0wLjY4MCAwLjAwMCAwLjk1OSAtMC42ODAgMC4zMzkgLTAuNjgwIDAuMDAwIDAuOTU5IC0wLjY4MCAtMC42ODAgMC4zMzkgMC4wMDAgMC45NTkgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iNDAwIiBoZWlnaHQ9IjEiIGZpbHRlcj0idXJsKCNkYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRQUFBUUFCQUFELy9nQStRMUpGUVZSUFVqb2daMlF0YW5CbFp5QjJNUzR3SUNoMWMybHVaeUJKU2tjZ1NsQkZSeUIyTmpJcExDQmtaV1poZFd4MElIRjFZV3hwZEhrSy85c0FRd0FJQmdZSEJnVUlCd2NIQ1FrSUNnd1VEUXdMQ3d3WkVoTVBGQjBhSHg0ZEdod2NJQ1F1SnlBaUxDTWNIQ2czS1N3d01UUTBOQjhuT1QwNE1qd3VNelF5LzlzQVF3RUpDUWtNQ3d3WURRMFlNaUVjSVRJeU1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXkvOEFBRVFnQUFRR1FBd0VpQUFJUkFRTVJBZi9FQUI4QUFBRUZBUUVCQVFFQkFBQUFBQUFBQUFBQkFnTUVCUVlIQ0FrS0MvL0VBTFVRQUFJQkF3TUNCQU1GQlFRRUFBQUJmUUVDQXdBRUVRVVNJVEZCQmhOUllRY2ljUlF5Z1pHaENDTkNzY0VWVXRId0pETmljb0lKQ2hZWEdCa2FKU1luS0NrcU5EVTJOemc1T2tORVJVWkhTRWxLVTFSVlZsZFlXVnBqWkdWbVoyaHBhbk4wZFhaM2VIbDZnNFNGaG9lSWlZcVNrNVNWbHBlWW1acWlvNlNscHFlb3FhcXlzN1MxdHJlNHVickN3OFRGeHNmSXljclMwOVRWMXRmWTJkcmg0dVBrNWVibjZPbnE4Zkx6OVBYMjkvajUrdi9FQUI4QkFBTUJBUUVCQVFFQkFRRUFBQUFBQUFBQkFnTUVCUVlIQ0FrS0MvL0VBTFVSQUFJQkFnUUVBd1FIQlFRRUFBRUNkd0FCQWdNUkJBVWhNUVlTUVZFSFlYRVRJaktCQ0JSQ2thR3h3UWtqTTFMd0ZXSnkwUW9XSkRUaEpmRVhHQmthSmljb0tTbzFOamM0T1RwRFJFVkdSMGhKU2xOVVZWWlhXRmxhWTJSbFptZG9hV3B6ZEhWMmQzaDVlb0tEaElXR2g0aUppcEtUbEpXV2w1aVptcUtqcEtXbXA2aXBxckt6dExXMnQ3aTV1c0xEeE1YR3g4akp5dExUMU5YVzE5aloydUxqNU9YbTUranA2dkx6OVBYMjkvajUrdi9hQUF3REFRQUNFUU1SQUQ4QTdVVXRGRkFEaFMwVVVBT0ZMUlJRQTRVdEZGQURoUzBVVUFPRkxSUlFBNFV0RkZBRGhTMFVVQU9GTFJSUUE0VXRGRkFEaFMwVVVBT0ZMUlJRQTRVdEZGQURoUzBVVUFPRkxSUlFBNFV0RkZBRGhTMFVVQU9GTFJSUUE0VXRGRkFEaFMwVVVBT0ZMUlJRQTRVdEZGQURoUzBVVUFPRkxSUlFBNFV0RkZBSC85az0iIC8+PC9zdmc+");
+}
+#latest_news a {
+    text-decoration-color: currentcolor;
+    color: rgb(221, 219, 216);
+}
+#latest_news .new a {
+    color: rgb(178, 173, 164);
+}
+.topmenu input,
+.topmenu select {
+    color: rgb(221, 219, 216);
+}
+.topmenu option {
+    color: rgb(221, 219, 216);
+}
+.topmenu input[type="text"],
+.topmenu input[type="password"] {
+    color: rgb(221, 219, 216);
+    background-color: rgb(9, 11, 12);
+    background-image: none;
+    border-color: rgb(52, 57, 60);
+}
+#search-text:focus {
+    outline-color: rgb(0, 45, 143);
+}
+#search-menu {
+    border-color: rgb(52, 57, 60);
+}
+#logged-in-username {
+    color: rgb(221, 219, 216) !important;
+}
+.pm-reception-disabled {
+    color: rgb(245, 138, 84) !important;
+}
+#sidebar1 h3,
+#idx-sidebar2 h3 {
+    color: rgb(189, 183, 176);
+    background-color: transparent;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjEiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyIj48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4zMzkgLTAuNjgwIC0wLjY4MCAwLjAwMCAwLjk1OSAtMC42ODAgMC4zMzkgLTAuNjgwIDAuMDAwIDAuOTU5IC0wLjY4MCAtMC42ODAgMC4zMzkgMC4wMDAgMC45NTkgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iMjAwIiBoZWlnaHQ9IjEiIGZpbHRlcj0idXJsKCNkYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRQUFBUUFCQUFELy9nQStRMUpGUVZSUFVqb2daMlF0YW5CbFp5QjJNUzR3SUNoMWMybHVaeUJKU2tjZ1NsQkZSeUIyTmpJcExDQmtaV1poZFd4MElIRjFZV3hwZEhrSy85c0FRd0FJQmdZSEJnVUlCd2NIQ1FrSUNnd1VEUXdMQ3d3WkVoTVBGQjBhSHg0ZEdod2NJQ1F1SnlBaUxDTWNIQ2czS1N3d01UUTBOQjhuT1QwNE1qd3VNelF5LzlzQVF3RUpDUWtNQ3d3WURRMFlNaUVjSVRJeU1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXkvOEFBRVFnQUFRRElBd0VpQUFJUkFRTVJBZi9FQUI4QUFBRUZBUUVCQVFFQkFBQUFBQUFBQUFBQkFnTUVCUVlIQ0FrS0MvL0VBTFVRQUFJQkF3TUNCQU1GQlFRRUFBQUJmUUVDQXdBRUVRVVNJVEZCQmhOUllRY2ljUlF5Z1pHaENDTkNzY0VWVXRId0pETmljb0lKQ2hZWEdCa2FKU1luS0NrcU5EVTJOemc1T2tORVJVWkhTRWxLVTFSVlZsZFlXVnBqWkdWbVoyaHBhbk4wZFhaM2VIbDZnNFNGaG9lSWlZcVNrNVNWbHBlWW1acWlvNlNscHFlb3FhcXlzN1MxdHJlNHVickN3OFRGeHNmSXljclMwOVRWMXRmWTJkcmg0dVBrNWVibjZPbnE4Zkx6OVBYMjkvajUrdi9FQUI4QkFBTUJBUUVCQVFFQkFRRUFBQUFBQUFBQkFnTUVCUVlIQ0FrS0MvL0VBTFVSQUFJQkFnUUVBd1FIQlFRRUFBRUNkd0FCQWdNUkJBVWhNUVlTUVZFSFlYRVRJaktCQ0JSQ2thR3h3UWtqTTFMd0ZXSnkwUW9XSkRUaEpmRVhHQmthSmljb0tTbzFOamM0T1RwRFJFVkdSMGhKU2xOVVZWWlhXRmxhWTJSbFptZG9hV3B6ZEhWMmQzaDVlb0tEaElXR2g0aUppcEtUbEpXV2w1aVptcUtqcEtXbXA2aXBxckt6dExXMnQ3aTV1c0xEeE1YR3g4akp5dExUMU5YVzE5aloydUxqNU9YbTUranA2dkx6OVBYMjkvajUrdi9hQUF3REFRQUNFUU1SQUQ4QTdVVThVVVVBUEZQRkZGQUR4VHhSUlFBOFU4VVVVQVBGUEZGRkFEeFR4UlJRQThVOFVVVUFQRlBGRkZBRHhUeFJSUUE4VThVVVVBUEZQRkZGQUR4VHhSUlFBOFVVVVVBZi85az0iIC8+PC9zdmc+");
+}
+#sidebar1 h3 a {
+    color: rgb(189, 183, 176);
+}
+#sidebar1 a {
+    text-decoration-color: currentcolor;
+    color: rgb(96, 195, 245);
+}
+.tr_main_cats ul {
+    list-style-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOSIgaGVpZ2h0PSI5Ij48ZGVmcz48ZmlsdGVyIGlkPSJkYXJrcmVhZGVyLWltYWdlLWZpbHRlciI+PGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAuMjU0IC0wLjYyNSAtMC42ODQgMC4wMDAgMC45OTMgLTAuNjU4IDAuMjk0IC0wLjY3NiAwLjAwMCAwLjk3OSAtMC42NDggLTAuNjIxIDAuMjU1IDAuMDAwIDAuOTUzIDAuMDAwIDAuMDAwIDAuMDAwIDEuMDAwIDAuMDAwIiAvPjwvZmlsdGVyPjwvZGVmcz48aW1hZ2Ugd2lkdGg9IjkiIGhlaWdodD0iOSIgZmlsdGVyPSJ1cmwoI2RhcmtyZWFkZXItaW1hZ2UtZmlsdGVyKSIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9naWY7YmFzZTY0LFIwbEdPRGxoQ1FBSkFJQUFBQUFBQVAvLy95SDVCQUVBQUFFQUxBQUFBQUFKQUFrQXdBQUFBUC8vL3dJTWpJOEllY3VmSEp4TVJsTUFBRHM9IiAvPjwvc3ZnPg==");
+}
+.idx-row + .idx-row {
+    border-top-color: rgb(46, 51, 54);
+}
+.cat_title {
+    background-color: rgb(35, 39, 41);
+    background-image: none;
+    border-color: rgb(39, 43, 45) rgb(35, 39, 41) currentcolor currentcolor;
+}
+.cat_title a {
+    text-decoration-color: currentcolor;
+    color: rgb(189, 183, 176) !important;
+}
+.cat_title a:hover {
+    background-color: rgb(42, 56, 63);
+    background-image: none;
+    color: rgb(77, 144, 238) !important;
+    text-decoration-color: currentcolor !important;
+}
+.cat_title a::before {
+    color: rgb(146, 137, 124);
+}
+.forums th {
+    color: rgb(182, 177, 169);
+}
+.forumlink a {
+    text-decoration-color: currentcolor;
+}
+.forum_desc {
+    color: rgb(189, 183, 176);
+}
+.forum-desc-in-title {
+    color: rgb(189, 183, 176);
+}
+.dot-sf {
+    color: rgb(100, 153, 182) !important;
+}
+.sf_title a {
+    text-decoration-color: currentcolor;
+}
+.forums td.row1 {
+    border-color: rgb(35, 39, 41);
+}
+.forums td.row2 {
+    border-color: rgb(37, 41, 43);
+}
+.sb2-block {
+    background-color: rgb(14, 16, 17);
+    background-image: none;
+    border-color: rgb(40, 44, 46);
+}
+.sb2-bg2 {
+    background-color: rgb(17, 20, 22);
+    background-image: none;
+}
+#idx-sidebar2 a {
+    text-decoration-color: currentcolor;
+    color: rgb(114, 187, 245);
+}
+#online_time {
+    color: rgb(177, 171, 163);
+}
+.f-map-wrap {
+    border-color: rgb(43, 48, 50);
+}
+.posted_since {
+    color: rgb(156, 148, 137);
+}
+.last_edited {
+    color: rgb(161, 153, 143);
+}
+.poster_info p {
+    color: rgb(177, 171, 163);
+}
+.poster_info .nick {
+    color: rgb(189, 183, 176);
+}
+.poster_info em {
+    color: rgb(221, 219, 216);
+}
+table.topic,
+.topic .td1,
+.topic .td2,
+.topic .td3,
+.post_head,
+.post_btn_2 {
+    border-color: rgb(49, 54, 57);
+}
+.topic .td1 {
+    border-right-color: rgb(52, 58, 61);
+}
+.topic .td3 {
+    border-right-color: rgb(52, 58, 61);
+}
+table.topic {
+    border-color: rgb(52, 58, 61);
+}
+.poster-banned-badge {
+    color: rgb(218, 69, 69);
+    background-color: rgb(14, 17, 18);
+    background-image: none;
+    border-color: rgb(52, 58, 61);
+}
+.hl-selected-post {
+    background-color: rgb(62, 33, 0) !important;
+}
+.scrolled-to-post .hl-scrolled-to-wrap {
+    background-color: rgb(21, 24, 25);
+    background-image: none;
+    border-color: rgb(41, 64, 87);
+}
+.scrolled-to-post a.p-link {
+    color: rgb(115, 199, 245);
+}
+.highlight-cyrillic:hover {
+    color: rgb(84, 191, 245) !important;
+    text-decoration-color: currentcolor !important;
+}
+.highlight-cyrillic:hover > .cyrillic-char {
+    color: rgb(204, 53, 53) !important;
+}
+#poll {
+    border-color: rgb(52, 58, 61);
+}
+.tor-status-td:hover {
+    background-color: rgb(11, 13, 14);
+    background-image: none;
+}
+.tor-approved,
+.tor-doubtful {
+    color: rgb(101, 245, 101);
+}
+.tor-closed {
+    color: rgb(245, 74, 11);
+}
+.tor-consumed {
+    color: rgb(245, 144, 43);
+}
+.tor-dup {
+    color: rgb(37, 112, 245);
+}
+.tor-need-edit {
+    color: rgb(245, 11, 11);
+}
+.tor-no-desc {
+    color: rgb(245, 74, 11);
+}
+.tor-not-approved {
+    color: rgb(224, 56, 162);
+}
+.tor-checking {
+    color: rgb(37, 112, 245);
+}
+select.hl-selected-option .selected {
+    background-color: rgb(18, 21, 22);
+    background-image: none;
+}
+#tor-status-sel option,
+#tor-type-sel option,
+#keeping-priority-sel option {
+    border-top-color: transparent;
+    border-bottom-color: rgb(44, 49, 52);
+}
+table.attach {
+    border-color: rgb(57, 63, 66);
+}
+.attach th,
+.attach td {
+    border-color: rgb(57, 63, 66);
+}
+.attach th {
+    background-color: rgb(33, 37, 39);
+    background-image: none;
+}
+fieldset.attach a {
+    text-decoration-color: currentcolor;
+}
+.attach_link a {
+    color: rgb(204, 86, 86);
+}
+.attach_comment {
+    color: rgb(182, 177, 169);
+    border-left-color: rgb(130, 94, 21);
+}
+.attach_comment a {
+    text-decoration-color: currentcolor !important;
+}
+.attachment-disclaimer {
+    color: rgb(159, 151, 140);
+}
+#file-up {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTAiIGhlaWdodD0iMTMiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyIj48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4yNTQgLTAuNjI1IC0wLjY4NCAwLjAwMCAwLjk5MyAtMC42NTggMC4yOTQgLTAuNjc2IDAuMDAwIDAuOTc5IC0wLjY0OCAtMC42MjEgMC4yNTUgMC4wMDAgMC45NTMgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iMTAiIGhlaWdodD0iMTMiIGZpbHRlcj0idXJsKCNkYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvZ2lmO2Jhc2U2NCxSMGxHT0RsaENnQU5BSkVBQUFBQUFQLy8vLy8vL3dBQUFDSDVCQUVBQUFJQUxBQUFBQUFLQUEwQUFBSVlsSThJbXdMM0ZGU1J3UnFOdFJwTGxqblMxU1VMMXlBRkFEcz0iIC8+PC9zdmc+");
+}
+.opened {
+    color: rgb(145, 136, 123);
+}
+a.dl-link {
+    text-decoration-color: currentcolor;
+}
+a.tr-dl:visited,
+a.f-dl:visited,
+a.dl-link:visited,
+a.dl-unregistered-tor:visited {
+    color: rgb(87, 145, 175);
+}
+a.dl-unregistered-tor {
+    color: rgb(84, 191, 245);
+}
+.website-button {
+    border-color: currentcolor;
+}
+.footer-bottom-links a {
+    text-decoration-color: currentcolor;
+}
+#timezone {
+    color: rgb(189, 183, 176);
+}
+.menu-root {
+    background-color: transparent;
+    background-image: url("https://static.rutracker.cc/templates/v1/images/menu_open.gif");
+}
+.menu-alt1 {
+    background-color: transparent;
+    background-image: none;
+}
+a.menu-root,
+a.menu-root:visited,
+a.menu-root:hover {
+    text-decoration-color: currentcolor !important;
+}
+.menu-split {
+    border-color: transparent;
+}
+.menu-split:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+    background-image: none;
+    border-color: rgba(127, 117, 102, 0.15);
+}
+.menu-split a:hover {
+    text-decoration-color: currentcolor !important;
+    color: rgb(221, 219, 216) !important;
+    background-color: rgba(0, 0, 0, 0.08);
+    background-image: none;
+}
+.menu-split .menu-root {
+    background-color: transparent;
+    background-image: none;
+}
+.menu-sub table {
+    background-color: rgb(9, 11, 12);
+    background-image: none;
+    border-color: rgb(62, 69, 72);
+}
+.menu-sub table th {
+    background-color: rgb(64, 82, 103);
+    background-image: none;
+    color: rgb(182, 217, 245);
+}
+.menu-sub table td {
+    background-color: rgb(23, 26, 28);
+    background-image: none;
+}
+.menu-sub table td.cat {
+    background-color: rgb(48, 53, 56);
+    background-image: none;
+}
+.menu-sub label:hover {
+    background-color: rgb(33, 37, 39);
+    background-image: none;
+    color: rgb(245, 138, 84);
+}
+.menu-a {
+    background-color: rgb(9, 11, 12);
+    background-image: none;
+    border-color: rgb(62, 69, 72);
+}
+.menu-a a {
+    color: rgb(95, 150, 245);
+    background-color: rgb(23, 26, 28);
+    background-image: none;
+    text-decoration-color: currentcolor !important;
+}
+.menu-a a:hover {
+    color: rgb(37, 112, 245);
+    background-color: rgb(33, 37, 39);
+    background-image: none;
+    text-decoration-color: currentcolor !important;
+}
+.gen-help-msg {
+    border-color: rgb(57, 63, 66);
+    background-color: rgb(9, 11, 12);
+    background-image: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px;
+}
+#ajax-loading {
+    background-color: rgb(22, 98, 56);
+    background-image: none;
+    color: rgb(245, 207, 180);
+}
+#ajax-error {
+    background-color: rgb(98, 0, 0);
+    background-image: none;
+    color: rgb(215, 212, 208);
+}
+.editable-container:hover {
+    background-color: rgb(17, 20, 22);
+    background-image: none;
+}
+.loading-1 {
+    background-color: transparent;
+    background-image: url("https://static.rutracker.cc/templates/v1/images/loading_1.gif");
+}
+.treeview,
+.treeview ul {
+    list-style-image: none;
+}
+.treeview .hitarea {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("https://static.rutracker.cc/templates/v1/images/treeview/treeview-default.gif");
+}
+.treeview a.selected {
+    background-color: rgb(19, 21, 23);
+}
+.treeview .hover {
+    color: rgb(245, 11, 11);
+}
+.treeview li {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("https://static.rutracker.cc/templates/v1/images/treeview/treeview-default-line.gif");
+}
+.treeview li.lastCollapsable,
+.treeview li.lastExpandable {
+    background-image: url("https://static.rutracker.cc/templates/v1/images/treeview/treeview-default.gif");
+}
+pre,
+.pre {
+    border-color: rgb(52, 58, 61);
+    background-color: rgb(15, 17, 18);
+    background-image: none;
+}
+.msg-ok {
+    color: rgb(101, 245, 101);
+}
+.msg-err,
+.msg-err a {
+    color: rgb(245, 11, 11);
+}
+.ann {
+    color: rgb(245, 138, 84);
+}
+.folded,
+.folded2 {
+    background-color: transparent;
+    background-image: url("https://static.rutracker.cc/templates/v1/images/icon_plus_1.gif");
+}
+.unfolded,
+.unfolded2 {
+    background-color: transparent;
+    background-image: url("https://static.rutracker.cc/templates/v1/images/icon_minus_1.gif");
+}
+.folded2 {
+    background-image: url("https://static.rutracker.cc/templates/v1/images/icon_plus_2.gif");
+}
+.unfolded2 {
+    background-image: url("https://static.rutracker.cc/templates/v1/images/icon_minus_2.gif");
+}
+.warnColor1 {
+    color: rgb(245, 138, 84);
+}
+.warnColor2 {
+    color: rgb(245, 11, 11);
+}
+.warnBorder1 {
+    border-color: rgb(142, 24, 24);
+}
+.warningBox1 {
+    border-color: rgb(142, 24, 24);
+    background-color: rgb(38, 18, 2);
+    background-image: none;
+    color: rgb(245, 138, 84);
+}
+.warningBox2 {
+    color: rgb(245, 138, 84) !important;
+    background-color: rgb(84, 35, 0);
+    background-image: none;
+    border-color: rgb(182, 84, 0);
+}
+.hl-err-text,
+.hl-err-block,
+.hl-err-input,
+.hl-non-1251 {
+    color: rgb(245, 11, 11) !important;
+    background-color: rgb(84, 35, 0) !important;
+    background-image: none !important;
+}
+.hl-err-block {
+    border-color: rgb(182, 84, 0) !important;
+}
+.hl-err-input,
+.hl-err-input:focus {
+    outline-color: rgb(182, 84, 0) !important;
+}
+#old-browser-warn {
+    background-color: rgb(122, 114, 0);
+    background-image: none;
+}
+.m-link a.postLink {
+    text-decoration-color: currentcolor !important;
+}
+.m-icon {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjkiIGhlaWdodD0iMTgiPjxkZWZzPjxmaWx0ZXIgaWQ9ImRhcmtyZWFkZXItaW1hZ2UtZmlsdGVyIj48ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4yNTQgLTAuNjI1IC0wLjY4NCAwLjAwMCAwLjk5MyAtMC42NTggMC4yOTQgLTAuNjc2IDAuMDAwIDAuOTc5IC0wLjY0OCAtMC42MjEgMC4yNTUgMC4wMDAgMC45NTMgMC4wMDAgMC4wMDAgMC4wMDAgMS4wMDAgMC4wMDAiIC8+PC9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0iMjkiIGhlaWdodD0iMTgiIGZpbHRlcj0idXJsKCNkYXJrcmVhZGVyLWltYWdlLWZpbHRlcikiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQjBBQUFBU0NBTUFBQUNRR3lYb0FBQUFCR2RCVFVFQUFLL0lOd1dLNlFBQUFCbDBSVmgwVTI5bWRIZGhjbVVBUVdSdlltVWdTVzFoWjJWU1pXRmtlWEhKWlR3QUFBQUdVRXhVUldabVp2Ly8vM05MV2FnQUFBQUNkRkpPVS84QTViY3dTZ0FBQUZWSlJFRlVlTnEwa1VzT0FDRU1RdUgrbC9hTGJaUEJaQmF5YWVJTEZCVzhDWnBkbmpKVExBMjZwNk55bHVSTVpaU0hxSlNGenFoSXBoWkVRMGNWN21qY0Y2ZC9PdGVLK2pZUEtYS05YOVQrNEtlYUFBTUFpZU1CZ2g4SG53Y0FBQUFBU1VWT1JLNUNZSUk9IiAvPjwvc3ZnPg==");
+}
+.m-link:hover .m-icon-over-img {
+    background-color: rgb(10, 12, 13);
+}
+.ttp-label {
+    color: rgb(221, 219, 216);
+}
+.ttp-label::before {
+    background-color: rgb(9, 11, 12);
+    box-shadow: rgba(0, 0, 0, 0.15) -1px -1px 1px inset;
+}
+.ttp-label.ttp-auth {
+    background-color: rgb(13, 101, 63);
+    background-image: none;
+}
+.ttp-label.ttp-antiq {
+    background-color: rgb(7, 56, 131);
+    background-image: none;
+}
+.ttp-label.ttp-crowdfunding {
+    background-color: rgb(112, 16, 128);
+    background-image: none;
+}
+.ttp-label.ttp-hot {
+    background-color: rgb(63, 87, 98);
+    background-image: none;
+}
+#fs-nav-ul span.f:hover {
+    color: rgb(37, 112, 245);
+    background-color: rgb(26, 30, 32);
+    background-image: none;
+}
+#fs-nav-list {
+    border-color: rgb(60, 66, 69);
+    background-color: rgb(18, 21, 22);
+    background-image: none;
+}
+.top-alert {
+    border-color: rgb(206, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px;
+}
+.top-alert a {
+    color: rgb(233, 122, 145) !important;
+    text-decoration-color: currentcolor;
+}
+.ta-crit {
+    background-color: rgb(15, 13, 8);
+    background-image: none;
+    border-color: rgb(127, 117, 102);
+}
+.ta-crit a {
+    color: rgb(245, 72, 72);
+}
+.ta-inf1 {
+    background-color: rgb(25, 29, 31);
+    background-image: none;
+    border-color: rgb(57, 63, 66);
+}
+.ta-inf1 a {
+    color: rgb(208, 205, 200);
+}
+.ta-inf2 {
+    background-color: rgb(22, 16, 1);
+    background-image: none;
+    border-color: rgb(100, 83, 44);
+}
+.ta-inf2 a {
+    color: rgb(218, 215, 212);
+}
+.ta-inf3 {
+    background-color: rgb(18, 21, 22);
+    background-image: none;
+    border-color: rgb(55, 61, 64);
+}
+.ta-inf3 a {
+    color: rgb(218, 216, 213);
+}
+.ta-inf4 {
+    background-color: rgb(122, 114, 0);
+    background-image: none;
+    border-color: rgb(100, 83, 44);
+}
+.ta-inf4 a {
+    color: rgb(198, 194, 188);
+}
+.ta-hide-btn:hover {
+    color: rgb(245, 11, 11);
+}
+.border {
+    border-color: rgb(52, 58, 61);
+}
+.strike {
+    text-decoration-color: currentcolor;
+}
+#nav-panel {
+    background-color: rgb(44, 49, 51);
+    background-image: none;
+    border-color: rgb(57, 62, 65) rgb(57, 62, 65) rgb(57, 62, 65) currentcolor;
+}
+div.nav-hidden-arrow {
+    background-color: rgb(44, 49, 51) !important;
+    background-image: url("https://static.rutracker.cc/templates/v1/images/icon_nav_sprite_1.png") !important;
+}
+div.nav-btn:hover {
+    background-color: rgb(51, 57, 59);
+}
+span.nav-icon {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("https://static.rutracker.cc/templates/v1/images/icon_nav_sprite_1.png");
+}
+#nav-opt-menu {
+    list-style-image: none;
+    background-color: rgb(44, 49, 51);
+    background-image: none;
+    border-color: rgb(57, 62, 65);
+}
+#nav-opt-menu > li:hover {
+    background-color: rgb(51, 57, 59);
+    color: rgb(221, 219, 216);
+}
+#nav-up:active {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px -5px 7px inset;
+}
+#nav-down:active {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 7px inset;
+}
+#nav-settings:active {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 7px inset;
+}
+.modal {
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px;
+    background-color: rgb(23, 26, 29);
+    background-image: none;
+}
+#modal-close-btn {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("https://static.rutracker.cc/templates/v1/images/icon_close.png");
+}
+#modal-spinner {
+    background-color: rgb(0, 0, 0);
+    background-image: url("https://static.rutracker.cc/templates/v1/images/loading_4.gif");
+}
+#modal-blocker {
+    background-color: rgb(0, 0, 0);
+    background-image: none;
+}
+.acp-nav-frame a,
+.acp-nav-frame a:visited {
+    text-decoration-color: currentcolor;
+}
+.acp h4 {
+    color: rgb(148, 178, 206);
+}
+.acp h5 {
+    color: rgb(112, 145, 201);
+}
+.acp h6 {
+    color: rgb(177, 171, 163);
+}
+#cse-search-results td {
+    border-color: currentcolor;
+}
+.topics-list .how-to-select-hint {
+    color: rgb(178, 173, 164);
+}
+.mcp-confirm-question b {
+    color: rgb(37, 112, 245);
+}
+.post_body pre {
+    border-color: currentcolor;
+    background-color: transparent;
+    background-image: none;
+}
+.post_body a.postLink {
+    text-decoration-color: currentcolor;
+}
+.post_body a[href*="viewtopic"].postLink:visited {
+    color: rgb(87, 145, 175);
+}
+.post_body a[href*="viewtopic"].postLink:visited span.p-color {
+    color: rgb(87, 145, 175) !important;
+}
+.signature::before {
+    border-bottom-color: rgb(68, 74, 78) !important;
+}
+.signature * {
+    text-decoration-color: currentcolor !important;
+    color: rgb(161, 153, 143) !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: rgb(63, 69, 72) !important;
+}
+.signature a,
+.signature a span {
+    color: rgb(161, 153, 143) !important;
+    text-decoration-color: currentcolor !important;
+}
+.signature a:hover,
+.signature a:hover span {
+    color: rgb(221, 219, 216) !important;
+}
+.signature .postLink:hover .postImg {
+    outline-color: currentcolor;
+}
+.signature a[href*="viewtopic.php?t=5927328"],
+.signature a[href*="viewtopic.php?t=5893069"],
+.signature a[href*="viewtopic.php?t=5931720"] {
+    color: rgb(124, 162, 220) !important;
+}
+.signature a[href*="viewtopic.php?t=5925342"] .post-b {
+    color: rgb(221, 219, 216) !important;
+}
+.mod-lists {
+    list-style-image: none;
+}
+.prof-tbl h6 {
+    color: rgb(177, 171, 163);
+}
+#reg-email-text {
+    color: rgb(37, 112, 245);
+}
+.reg-validation-msg {
+    color: rgb(245, 25, 25);
+}
+.tcl {
+    background-color: rgb(9, 11, 12);
+    background-image: none;
+}
+.tcl a {
+    text-decoration-color: currentcolor;
+}
+.tcl li li:hover b {
+    background-color: rgb(9, 11, 12);
+    background-image: none;
+}
+.tcl span.b {
+    background-color: rgb(67, 88, 97);
+    background-image: none;
+}
+.tcl span.b a,
+.tcl span.b a:hover,
+.tcl span.b a:visited,
+.tcl span.b .cat-title {
+    color: rgb(215, 212, 208) !important;
+}
+.tcl span.b a:hover {
+    background-color: rgb(42, 91, 131);
+    background-image: none;
+}
+.tcl b {
+    background-color: rgb(17, 20, 21);
+    background-image: none;
+    border-color: rgb(61, 68, 71);
+}
+.spaceRow {
+    background-color: rgb(33, 37, 39);
+    background-image: none;
+}
+td.topicSep {
+    color: rgb(189, 183, 176);
+}
+.topicAnnounce {
+    color: rgb(245, 135, 35);
+}
+.topicSticky {
+    color: rgb(84, 245, 84);
+}
+.topicPoll {
+    color: rgb(221, 219, 216);
+}
+.topicPG a {
+    text-decoration-color: currentcolor;
+}
+.iconDL {
+    border-color: currentcolor;
+    background-color: rgb(18, 21, 22);
+    background-image: none;
+}
+.topicAuthor,
+a.topicAuthor,
+a.topicAuthor:visited {
+    color: rgb(189, 183, 176);
+    text-decoration-color: currentcolor;
+}
+.torSize {
+    color: rgb(189, 183, 176);
+    text-decoration-color: currentcolor;
+}
+tr.hl-tr:hover td {
+    background-color: rgb(13, 15, 16) !important;
+}
+.hl-selected-row,
+.hl-selected-row td {
+    background-color: rgb(43, 19, 0) !important;
+}
+.hl-sel-row-2,
+.hl-sel-row-2 td {
+    background-color: rgb(79, 13, 13) !important;
+}
+.hl-sel-row-3,
+.hl-sel-row-3 td {
+    background-color: rgb(57, 23, 0) !important;
+}
+tr.hl-tr.hl-sel-row-3:hover td {
+    background-color: rgb(49, 17, 0) !important;
+}
+.hl-sel-row-3 a.tt-text,
+.hl-sel-row-3 a.tt-text:visited {
+    color: rgb(245, 79, 79);
+}
+.without-confirm {
+    color: rgb(37, 112, 245);
+}
+span.st-name:hover {
+    text-decoration-color: currentcolor;
+}
+.tpl-links a,
+.tpl-links a:visited {
+    color: rgb(210, 207, 203);
+    text-decoration-color: currentcolor;
+}
+.vf-t-float-icon {
+    border-color: currentcolor;
+}
+.vf-t-icon-1 {
+    border-color: currentcolor;
+}
+.vf-table a[href*="viewtopic.php?t=6281604"] {
+    color: rgb(189, 76, 207) !important;
+}
+.ftree s {
+    text-decoration-color: currentcolor;
+}
+.ftree i {
+    color: rgb(143, 134, 120);
+}
+li.file {
+    list-style-image: url("https://static.rutracker.cc/templates/v1/images/icon_minipost.gif");
+}
+li.file > div s {
+    color: rgb(37, 112, 245);
+}
+li.dir {
+    list-style-image: none;
+}
+li.dir > div:hover {
+    color: rgb(245, 11, 11);
+}
+li.dir > div s {
+    color: rgb(245, 101, 101);
+}
+li.dir > div::before {
+    color: rgb(119, 161, 173);
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("https://static.rutracker.cc/templates/v1/images/ftree_icons_1.gif");
+}
+.f-bysize i {
+    color: rgb(37, 112, 245);
+    border-right-color: rgb(46, 51, 53);
+}
+.f-bysize div:nth-of-type(2n) {
+    background-color: rgb(14, 21, 11);
+    background-image: none;
+    border-bottom-color: rgb(44, 48, 51);
+    border-top-color: rgb(40, 44, 47);
+}
+.cmp-tbl {
+    border-color: rgb(26, 51, 70);
+}
+.cmp-tbl td {
+    background-color: rgb(9, 11, 12);
+    background-image: none;
+}
+.cmp-tbl td.f-size {
+    color: rgb(37, 112, 245);
+}
+.cmp-tbl td.other-f {
+    color: rgb(245, 94, 94);
+}
+.cmp-tbl th {
+    background-color: rgb(18, 21, 22);
+    background-image: none;
+}
+.cmp-tbl tbody tr:nth-of-type(2n) td {
+    background-color: rgb(14, 21, 11);
+    background-image: none;
+}
+.cmp-same th {
+    background-color: rgb(22, 98, 56);
+    background-image: none;
+    color: rgb(221, 219, 216);
+}
+.cmp-diff th {
+    background-color: rgb(99, 24, 1);
+    background-image: none;
+    color: rgb(191, 187, 179);
+}
+#tor-fl-wrap {
+    background-color: rgb(18, 21, 22);
+    background-image: none;
+}
+#tor-filelist,
+#cmp-results {
+    border-color: rgb(53, 58, 61);
+    background-color: rgb(9, 11, 12);
+    background-image: none;
+}
+.ext-group-1 {
+    color: rgb(245, 94, 94);
+}
+.ext-group-2 {
+    color: rgb(37, 11, 245);
+}
+.print-mode * {
+    background-color: rgb(9, 11, 12) !important;
+    background-image: none !important;
+}
+.print-mode table.topic,
+.print-mode .post_head,
+.print-mode .c-body,
+.print-mode .q,
+.print-mode .sp-wrap,
+.print-mode .sp-head,
+.print-mode .sp-body {
+    border-color: currentcolor;
+}
+#thx-list a {
+    text-decoration-color: currentcolor;
+}
+#thx-list b {
+    color: rgb(192, 187, 180);
+}
+#thx-list i {
+    color: rgb(221, 219, 216);
+}
+.t-note .note-html,
+.t-note .note-text {
+    border-color: rgb(57, 63, 66);
+    background-color: rgb(12, 14, 15);
+    background-image: none;
+}
+.t-note .note-html-buttons .last-editor {
+    color: rgb(221, 219, 216);
+}
+a.t-ref-url,
+a.t-ref-url:visited,
+.t-has-offer .tt-text,
+.t-has-offer .tt-text:visited {
+    color: rgb(86, 139, 231);
+    text-decoration-color: currentcolor;
+}
+.my-rto-button {
+    color: rgb(245, 94, 94);
+}
+.dbg-post-id {
+    color: rgb(187, 155, 146);
+    border-color: rgb(53, 59, 62);
+}
+.products.bn-idx .product-image {
+    border-color: rgb(46, 51, 54);
+}
+.products.bn-bottom {
+    background-color: rgb(25, 29, 31);
+    background-image: none;
+}
+.products.list-in-forum-post .product-link:hover .product-image {
+    outline-color: rgb(0, 82, 151);
+}
+.products h1 {
+    border-bottom-color: rgb(66, 73, 76);
+}
+.review-link {
+    border-color: transparent;
+    background-color: rgba(9, 11, 12, 0.9);
+    background-image: none;
+}
+.product-box:hover .review-link {
+    border-color: rgb(0, 82, 151);
+    background-color: rgb(18, 21, 22);
+    background-image: none;
+}
+.ali-promocode a {
+    color: rgb(117, 78, 195) !important;
+}
+.cat_title a::after {
+    color: rgb(146, 137, 124);
+}
+.bb-alert-err {
+    color: rgb(245, 103, 103);
+    background-color: rgb(47, 0, 0);
+    background-image: none;
+    box-shadow: rgb(126, 44, 44) 0px 0px 20px;
+}
+
+/* Override Style */
+.vimvixen-hint {
+    background-color: #6e4500 !important;
+    border-color: #cda404 !important;
+    color: #e8ddbd !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: #002c3a !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: #00111b !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: #000000 !important;
+}
+.tou-uknfeu {
+    background-color: #140700 !important;
+}
+.tou-6i3zyv {
+    background-color: #0a4a5f !important;
+}
+embed[type="application/pdf"] {
+    filter: invert(100%) contrast(90%);
+}
+
+
+/*сайт лого кастом*/
+.site-logo {
+    content: url(https://rutracker.wiki/images/b/b2/2018_04_12.gif)
+}
+
+/*кастом фон*/
+#page_container {
+    background: url(https://thumbs.gfycat.com/RingedSpicyKodiakbear-size_restricted.gif)
+}
+}
